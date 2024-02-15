@@ -1,6 +1,7 @@
 package com.topic3.android.reddit.components
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
@@ -32,7 +33,6 @@ fun JoinedToast(visible: Boolean) {
         ToastContent()
     }
 }
-
 @Composable
 private fun ToastContent(){
     val shape = RoundedCornerShape(4.dp)
